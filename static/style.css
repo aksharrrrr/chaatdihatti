@@ -1,0 +1,65 @@
+html{
+    height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("bg5.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+
+
+.bg{
+    vertical-align: center;
+    margin: 8vh 0;
+}
+
+
+
+p{
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+    padding-bottom: 0rem;
+    padding-top: 0rem;
+}
+
+
+
+input{
+    color: ivory;
+}
+
+textarea{
+    color: ivory;
+    height: 5%;
+}
+
+#form1{
+    background-color: rgba(0,0,0, 0.9);
+    padding: 2% 5% 6% 5%;
+    border-radius: 2rem;
+    color: ivory;
+}
+
+
+
+.radius{
+    border-radius: 2rem;
+}
+
+@-webkit-keyframes autofill {
+    0%,100% {
+        color: ivory;
+        background: transparent;
+    }
+}
+
+input:-webkit-autofill {
+    -webkit-animation-delay: 1s; /* Safari support - any positive time runs instantly */
+    -webkit-animation-name: autofill;
+    -webkit-animation-fill-mode: both;
+}
